@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    background-color: #F0FCF7;
+    font-family: Arial, sans-serif;
+    color: #386C5F;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #62E2B6;
+}
+
+/* Form styles */
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9AB0A7;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #62E2B6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Link styles */
+a {
+    color: #629C86;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Background and image styles */
+body {
+    background-color: #F0FCF7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add any additional styles you need for your specific elements */
