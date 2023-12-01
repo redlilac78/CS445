@@ -108,6 +108,7 @@ body {
         <div id="buttons">
             <button id="searchButton"><a href="Search.php"/>Search</a></button>
             <button id="signUpButton"><a href="SignUp.php"/>Sign Up</a></button>
+            <button id="signUpButton"><a href="LogIn.php"/>Log In</a></button>
         </div>
     </div>
     <div id="developers">

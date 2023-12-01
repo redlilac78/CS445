@@ -13,11 +13,21 @@
 
         .container {
             max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
+
+
+
+
+            padding: 20px 40px 20px 20px;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
         }
 
         h2 {
@@ -44,7 +54,8 @@
         }
 
         button {
-            background-color: #ff6600;
+            width: 300px;
+            background-color: #ff0000;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -69,6 +80,8 @@
 
             <div class="form-group">
                 <button type="submit">Login</button>
+                <p>Don't have an account ? <a href="SignUp.php">Sign Up</a></p>
+
             </div>
         </form>
     </div>
