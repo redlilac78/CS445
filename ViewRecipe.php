@@ -1,3 +1,13 @@
+<?php
+require_once('Connections/db_details.php');
+$con = mysqli_connect($db_host, $db_user, $db_pass, $db_table);
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header('Location: LogIn.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="CSS/Style.css">
@@ -7,8 +17,10 @@
     <title><?php echo $title; ?> Recipe</title>
 </head>
 <body>
+    <br>
+    <div><a href="logout.php">Log Out</a></div>
     <h1><?php echo $title; ?> Recipe</h1>
-
+    <div>Log Out</div>
     <img src="<?php echo $image; ?>" alt="<?php echo $title; ?>">
 
     <p><strong>Description:</strong> <?php echo $description; ?></p>
